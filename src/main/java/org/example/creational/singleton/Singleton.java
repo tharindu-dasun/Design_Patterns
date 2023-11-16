@@ -3,8 +3,10 @@ package org.example.creational.singleton;
 public class Singleton {
     private static final Singleton singleton = new Singleton();
 
+    //Private Constructor
     private Singleton() {
     }
+
     public static Singleton getSingleton(){
         return singleton;
     }
@@ -12,3 +14,4 @@ public class Singleton {
         System.out.println("Singleton explain");
     }
 }
+
