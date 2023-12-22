@@ -2,6 +2,6 @@ package org.example.creational.factory;
 
 public class Circle implements Shape{
     public void draw(){
-        System.out.println();
+        System.out.println("Circle Method Call !");
     }
 }
